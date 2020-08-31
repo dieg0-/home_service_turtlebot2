@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <package format="2">
-  <name>home_service_robot_configs</name>
+  <name>home_service_turtlebot2_configs</name>
   <version>0.0.0</version>
   <description>The home_service_robot_configs package</description>
 
