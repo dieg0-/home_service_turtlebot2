@@ -46,7 +46,7 @@ To map the environment, **gmapping** is used, which is a ROS implementation of l
 
 ##### Navigation
 
-The default navigation configuration for the TurtleBot2 is used. As global planner it uses [**navfn**](http://wiki.ros.org/navfn) which implements the Dijkstra algorithm. As a local planner it uses the Dynamic Window Approach ([DWA](http://wiki.ros.org/dwa_local_planner)). The navigation can be teste by running: ``./test_navigation.sh``.
+The default navigation configuration for the TurtleBot2 is used. As global planner it uses [**navfn**](http://wiki.ros.org/navfn) which implements the Dijkstra algorithm. As a local planner it uses the Dynamic Window Approach ([DWA](http://wiki.ros.org/dwa_local_planner)). The navigation can be tested by running: ``./test_navigation.sh``.
 
 ##### Others
 The nodes **pick_objects** and **add_markers** can also be tested standalone through ``./pick_objects.sh`` and ``./add_markers.sh``, but this does not make much sense as both nodes should interact with each other. Eg. **add_markers** would visualize the objects at their initial position but these would never be picked up.
