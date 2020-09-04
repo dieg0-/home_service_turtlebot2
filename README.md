@@ -8,7 +8,7 @@ This project demonstrates a TurtleBot2 driving through the environment transport
 
 #### Requirements
 1. **ROS Version: kinetic.** Starting from ROS melodic, the TurtleBot2 is deprecated. I am currently working on migrating this to TurtleBot3 and to a custom differential drive robot.
-2. Clone and compile the following ROS packages:
+2. The following ROS pkgs are required, and are included in the repository:
    - [gmapping](http://wiki.ros.org/gmapping)
    - [turtlebot_teleop](http://wiki.ros.org/turtlebot_teleop)
    - [turtlebot_rviz_launchers](http://wiki.ros.org/turtlebot_rviz_launchers)
