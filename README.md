@@ -13,6 +13,8 @@ This project demonstrates a TurtleBot2 driving through the environment transport
    - [turtlebot_teleop](http://wiki.ros.org/turtlebot_teleop)
    - [turtlebot_rviz_launchers](http://wiki.ros.org/turtlebot_rviz_launchers)
    - [turtlebot_gazebo](http://wiki.ros.org/turtlebot_gazebo)
+   - [turtlebot_navigation](http://wiki.ros.org/turtlebot_navigation)
+   - [turtlebot_msgs](http://wiki.ros.org/turtlebot_msgs)
 3. To run the scripts under __home_service_turtlebot2/home_service_turtlebot2_configs/scripts/__ make sure **xterm** is installed: ``sudo apt-get install -y xterm``.
 
 #### Usage
