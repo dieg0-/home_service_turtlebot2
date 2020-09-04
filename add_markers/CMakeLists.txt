@@ -8,6 +8,7 @@ add_compile_options(-std=c++11)
 ## if COMPONENTS list like find_package(catkin REQUIRED COMPONENTS xyz)
 ## is used, also find other catkin packages
 find_package(catkin REQUIRED COMPONENTS
+  message_generation
   pick_objects
   roscpp
   visualization_msgs
@@ -68,10 +69,10 @@ find_package(catkin REQUIRED COMPONENTS
 # )
 
 ## Generate added messages and services with any dependencies listed here
-# generate_messages(
-#   DEPENDENCIES
-#   visualization_msgs
-# )
+generate_messages(
+   DEPENDENCIES
+   visualization_msgs
+)
 
 ################################################
 ## Declare ROS dynamic reconfigure parameters ##
@@ -207,3 +208,4 @@ include_directories(
 
 add_executable(add_markers_node src/add_markers.cpp)
 target_link_libraries(add_markers_node ${catkin_LIBRARIES})
+add_dependencies(add_markers_node add_markers_generate_messages_cpp)
